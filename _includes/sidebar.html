@@ -9,34 +9,26 @@
     <div class="contact-container container-block">
         <ul class="list-unstyled contact-list">
            
-           {% if site.email %}
-            <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
-            {% else %}
-            <li class="email"><i class="fa fa-envelope"></i><a href="mailto:alan.doe@website.com">alan.doe@website.com</a></li>
-            {% endif %}
-            
-            <li class="phone"><i class="fa fa-stack-overflow"></i><a href="http://sof.bragboy.com">sof.bragboy.com</a></li>
-            
             <li class="website"><i class="fa fa-university"></i><a href="http://tech.bragboy.com" target="_blank">tech.bragboy.com</a></li>
 
             <li class="website"><i class="fa fa-globe"></i><a href="http://blog.bragboy.com" target="_blank">blog.bragboy.com</a></li>
+
+            <li class="phone"><i class="fa fa-stack-overflow"></i><a href="http://sof.bragboy.com">sof.bragboy.com</a></li>            
 
             <li class="linkedin"><i class="fa fa-linkedin-square"></i><a href="http://linkedin.bragboy.com" target="_blank">linkedin.bragboy.com</a></li>
             
             {% if site.github %}
             <li class="github"><i class="fa fa-github"></i><a href="http://github.com/{{site.github}}" target="_blank">github.com/{{site.github}}</a></li>
             {% else %}
-            <li class="github"><i class="fa fa-github"></i><a href="http://github.com/sharu725" target="_blank">github.com/sharu725</a></li>
+            <li class="github"><i class="fa fa-github"></i><a href="http://github.com/bragboy" target="_blank">github.com/bragboy</a></li>
             {% endif %}
             
             {% if site.twitter %}
             <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
             {% else %}
-             <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@webjeda" target="_blank">@webjeda</a></li>
+             <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/@bragabrags" target="_blank">@bragabrags</a></li>
             {% endif %}
         </ul>
     </div><!--//contact-container-->
    {% include education.html %}
-   {% include language.html %}
-   {% include interests.html %}
 </div><!--//sidebar-wrapper-->

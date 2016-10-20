@@ -1,7 +1,5 @@
-
 title: Bragadeesh Jegannathan
 url: 'http://bragboy.com'
-
 
 # Enable one of these styles by removing #
 #style: styles-2
@@ -10,12 +8,9 @@ url: 'http://bragboy.com'
 #style: styles-5
 style: styles-6
 
-
-
-
 #Profile information
-name: Braga
-tagline: Architect
+name: Bragadeesh Jegannathan
+tagline: Software Architect
 pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
@@ -24,4 +19,3 @@ website: tech.bragboy.com
 linkedin: jbragadeesh
 github: bragboy
 twitter: '@bragabrags'
-

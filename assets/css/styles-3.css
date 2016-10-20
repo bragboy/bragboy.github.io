@@ -70,8 +70,8 @@ p {
   color: #fff;
 }
 .sidebar-wrapper .name {
-  font-size: 32px;
-  font-weight: 900;
+  font-size: 2em;
+  font-weight: normal;
   margin-top: 0;
   margin-bottom: 10px;
 }

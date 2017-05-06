@@ -1,16 +1,11 @@
 title: Bragadeesh Jegannathan
 url: 'http://bragboy.com'
 
-# Enable one of these styles by removing #
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-style: styles-6
+style: styles
 
 #Profile information
 name: Bragadeesh Jegannathan
-tagline: Entrepreneur
+tagline: Enterprise Architect
 pic: braga.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links

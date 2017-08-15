@@ -221,6 +221,9 @@ p {
 .main-wrapper .time .company-logo{
   max-height: 30px;
 }
+.francium{
+  max-height: 42px !important;
+}
 .main-wrapper .company {
   margin-bottom: 10px;
   color: #97AAC3;

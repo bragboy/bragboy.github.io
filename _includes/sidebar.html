@@ -3,13 +3,11 @@
     <div class="profile-container">
         <img class="profile" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}braga.png{% endif %}" alt="profile picture" />
         <h1 class="name">{% if site.name %}{{site.name}}{% else %}Bragadeesh Jegannathan{% endif %}</h1>
-        <h3 class="tagline">Entrepreneur</h3>
+        <h3 class="tagline">{% if site.tagline %}{{site.tagline}}{% else %}Enterprise Architect{% endif %}</h3>
     </div><!--//profile-container-->
     
     <div class="contact-container container-block">
       <ul class="list-unstyled contact-list">
-        <li class="website"><i class="fa fa-building-o"></i><a href="http://francium.tech">Francium Tech</a></li>
-        
         <li class="website"><i class="fa fa-rss-square"></i><a href="http://tech.bragboy.com">Technical Blog</a></li>
 
         <li class="website"><i class="fa fa-globe"></i><a href="http://blog.bragboy.com">Personal Blog</a></li>
